@@ -1,7 +1,7 @@
 # SNKRS NIKE API Monitor Discord  
 Nike SNKRS product monitor that sends notifications to a Discord server regarding new items, release date changes, and stock updates.  
 
-## Features  
+### Features  
 Nike API Monitoring: Automatically checks upcoming releases for the selected region.  
 
 ### Webhook Notifications  
