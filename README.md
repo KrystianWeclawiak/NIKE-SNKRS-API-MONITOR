@@ -30,8 +30,8 @@ The monitor features a built-in logging system that tracks every action in real-
 ![MonitorLogs](images/MonitorLoggs.png)  
 
 ### Configuration  
-config.py file: Enter your Discord Webhook URL in the Monitor_Discord_Channel_Webhooks_List.  
-users.txt file: Add a list of User-Agent headers (one per line).  
+- config.py file: Enter your Discord Webhook URL, Embed discord username, etc.
+- users.txt file: Add a list of User-Agent headers (one per line, 100 of them are added).  
 
 ### Library Installation  
 Run the command: pip install requests.  
