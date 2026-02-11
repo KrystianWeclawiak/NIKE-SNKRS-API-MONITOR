@@ -6,14 +6,17 @@ Nike API Monitoring: Automatically checks upcoming releases for the selected reg
 
 ### Webhook Notifications  
 Notification system for New Item, Date Changed, and Stock Update statuses.  
-![MonitorResultImage](images/MonitorResult1.png)  
-![MonitorResultImage](images/MonitorResult2.png)  
-![MonitorResultImage](images/MonitorResultPremierDateChanged.png)  
-![MonitorResultImage](images/MonitorResultStockChanged.png)  
+
+| | |
+|:---:|:---:|
+| ![MonitorResultImage](images/MonitorResult1.png) | ![MonitorResultImage](images/MonitorResult2.png) |
+| ![MonitorResultImage](images/MonitorResultPremierDateChanged.png) | ![MonitorResultImage](images/MonitorResultStockChanged.png) |
 
 ### Local Database  
 Saves product states in an inventory.json file to track changes.   
-![MonitorDatabase](images/JsonDataSaved.png)  
+<p align="left">
+  <img src="images/JsonDataSaved.png" width="600">
+</p>
 
 ### User-Agents Support  
 Ability to rotate browser headers using a users.txt file.  
@@ -23,6 +26,7 @@ The monitor features a built-in logging system that tracks every action in real-
 - The exact time of the event.  
 - Categorization of the log (INFO for general updates, ERROR for issues).  
 - Details about API requests, detected products, and webhook status.  
+
 ![MonitorLogs](images/MonitorLoggs.png)  
 
 ### Configuration  
@@ -32,6 +36,6 @@ users.txt file: Add a list of User-Agent headers (one per line).
 ### Library Installation  
 Run the command: pip install requests.  
 
-Requirements  
+### Requirements  
 Python 3.x  
 requests library
