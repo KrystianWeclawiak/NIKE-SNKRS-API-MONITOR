@@ -7,7 +7,6 @@ Nike API Monitoring: Automatically checks upcoming releases for the selected reg
 ### Webhook Notifications  
 Notification system for New Item, Date Changed, and Stock Update statuses.  
 
-| | |
 |:---:|:---:|
 | ![MonitorResultImage](images/MonitorResult1.png) | ![MonitorResultImage](images/MonitorResult2.png) |
 | ![MonitorResultImage](images/MonitorResultPremierDateChanged.png) | ![MonitorResultImage](images/MonitorResultStockChanged.png) |
